@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Search App</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 40px;
+    }
+    input {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    .result {
+      margin-top: 20px;
+    }
+    .loading {
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Search Users</h2>
+  <input type="text" id="search" placeholder="Type to search..." />
+  <div id="status" class="loading"></div>
+  <div id="results" class="result"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
